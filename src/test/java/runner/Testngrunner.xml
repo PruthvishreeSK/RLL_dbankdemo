@@ -1,0 +1,23 @@
+<suite name="test1" verbose="1">
+
+	<listeners>
+    	<listener class-name="utilities.ITestListenerClass"></listener>
+    	<listener class-name="utilities.TestRetryAnalyzerListener"></listener>
+	</listeners>
+	
+	<test name="POMframework">
+		<classes>
+			<class name="tests.SignUpTest"></class>
+			<class name="tests.SignInTest"></class>
+			<class name="tests.Deposit_into_Account_Test"></class>
+			<class name="tests.Withdraw_from_Account_Test"></class>
+			<class name="tests.Transfer_between_Accounts_Test"></class>
+			<class name="tests.Direct_Payment_to_Visa_Test"></class>
+			<class name="tests.Search_TRN_View_Checking_Test"></class>
+			<class name="tests.Search_TRN_View_Saving_Test"></class>
+			
+			<!--class name="com.ninjademo.qa.testpages.TestProductPage"></class>-->
+
+		</classes>
+	</test>
+</suite>
